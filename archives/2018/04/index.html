@@ -125,56 +125,48 @@
   </div>
 </header>
 
-    <main class="app-body">
+    <div id="article-banner">
+  <h2>Archives</h2>
+  <p class="post-date">文章歸檔</p>
+</div>
+<main class="app-body" id="archives">
   
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/cd2018/2018/04/24/untitled-1524503356063/">Lua基本邏輯符號教學</a>
-      </h2>
-      <p class="article-date">2018年4月24日</p>
-      
-      <div class="article-summary">
-        
-          Lua 是一種輕量小巧的腳本語言，用標準C語言編寫並以源代碼形式開放， 其設計目的是為了嵌入應用程序中，從而為應用程序提供靈活的擴展和定制功能。
-Lua 是巴西里約熱內盧天主教大學（Pontifical Catholic University of Rio de Janeiro）裡的一個研究 ...
-        
+  
+  
+    <section class="time-section">
+  <h1 class="section-year">
+    2018
+  </h1>
+  <div class="section-list">
+    
+    
+      <div class="section-list-item">
+        <a href="/cd2018/2018/04/24/untitled-1524503356063/" class="archive-title">Lua基本邏輯符號教學</a>
+        <p class="archive-date">04-24</p>
       </div>
-      <a class="more" href="/cd2018/2018/04/24/untitled-1524503356063/">Read more</a>
-    </article>
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/cd2018/2018/03/31/untitled-1522469873670/">文章格式測試</a>
-      </h2>
-      <p class="article-date">2018年3月31日</p>
-      
-      <div class="article-summary">
-        
-          Markdown筆記概述Markdown的目標是希望實現「易讀、易寫」。一份Markdown 的文章，應該是一份純文字檔，並透過一些經過嚴謹慎選的符號標記文章中需要強調的文字或段落，例如粗體、鈄體、清單或是超連結以下就整理了一些常用的Markdown範例。
-範例段落當我們在寫一份文件時，希望 ...
-        
+    
+      <div class="section-list-item">
+        <a href="/cd2018/2018/03/31/untitled-1522469873670/" class="archive-title">文章格式測試</a>
+        <p class="archive-date">03-31</p>
       </div>
-      <a class="more" href="/cd2018/2018/03/31/untitled-1522469873670/">Read more</a>
-    </article>
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/cd2018/2018/03/29/hello-world/">Hello World</a>
-      </h2>
-      <p class="article-date">2018年3月29日</p>
-      
-      <div class="article-summary">
-        
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
-        
+    
+      <div class="section-list-item">
+        <a href="/cd2018/2018/03/29/hello-world/" class="archive-title">Hello World</a>
+        <p class="archive-date">03-29</p>
       </div>
-      <a class="more" href="/cd2018/2018/03/29/hello-world/">Read more</a>
-    </article>
-  
-
+    
+  </div>
+</section>
   
 </main>
 
+<script>
+  (function () {
+    var url = 'http://s40523125.github.io/cd2018/archives/2018/04/index.html';
+    $('#article-banner').geopattern(url);
+    $('.header').removeClass('fixed-header');
+  })();
+</script>
 
     <div class="scroll-top">
   <span class="arrow-icon"></span>
